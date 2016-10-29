@@ -1,6 +1,6 @@
 {
   "name": "microjs-plugins-rest-list",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Плагин Microjs для запросов к линейным сущностям",
   "main": "index.js",
   "author": "Konstantin Dark",
