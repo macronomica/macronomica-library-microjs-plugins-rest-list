@@ -1,5 +1,5 @@
 {
-  "name": "microjs-plugins-rest-list",
+  "name": "@microjs/microjs-plugins-rest-list",
   "version": "0.1.0",
   "description": "Плагин Microjs для запросов к линейным сущностям",
   "main": "index.js",
