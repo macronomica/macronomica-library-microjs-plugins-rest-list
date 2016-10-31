@@ -11,13 +11,12 @@ exports.default = function (micro, actions, schema) {
         id = _ref.id,
         fields = _ref.fields,
         _ref$criteria = _ref.criteria,
-        criteria = _ref$criteria === undefined ? {} : _ref$criteria,
-        params = _ref.params;
+        criteria = _ref$criteria === undefined ? {} : _ref$criteria;
 
     if (!('id' in criteria) && !!id) {
       criteria.id = id;
     }
-    return actions.update(schema, criteria, params, { fields: fields });
+    return actions.remove(schema, criteria, { fields: fields });
   };
 };
-//# sourceMappingURL=update.js.map
+//# sourceMappingURL=remove.js.map

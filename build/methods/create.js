@@ -9,12 +9,9 @@ exports.default = function (micro, actions, schema) {
     var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
         cmd = _ref.cmd,
         fields = _ref.fields,
-        sort = _ref.sort,
-        limit = _ref.limit,
-        offset = _ref.offset,
-        criteria = _ref.criteria;
+        params = _ref.params;
 
-    return actions.find.list(schema, criteria, { fields: fields, sort: sort, limit: limit, offset: offset });
+    return actions.create(schema, params, { fields: fields });
   };
 };
-//# sourceMappingURL=list.js.map
+//# sourceMappingURL=create.js.map
